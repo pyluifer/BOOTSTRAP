@@ -2,19 +2,31 @@
 function cambiarImagen(){
     let alt= document.getElementById("img1").alt;
     if(alt=="img1"){
-        document.getElementById("img1").src="https://image.goat.com/750/attachments/product_template_pictures/images/060/411/170/original/FY0650.png.png"
+        document.getElementById("img1").src="https://image.goat.com/750/attachments/product_template_pictures/images/060/411/170/original/FY0650.png.png";
         document.getElementById("img1").alt="img2"
     }else{
-        document.getElementById("img1").src="https://image.goat.com/750/attachments/product_template_pictures/images/058/792/283/original/CW3985_401.png.png"
+        document.getElementById("img1").src="https://image.goat.com/750/attachments/product_template_pictures/images/058/792/283/original/CW3985_401.png.png";
         document.getElementById("img1").alt="img1"
     }
     
 }
 
-
 /***VARIABLES***** */
 const numero_5 = 5;
-return num1 + num2
+var cadena="Hola Mundo"
+let numero_decimal = 10.2
+
+/********FUNCIONES ********/
+function saludar(){
+    alert("Hola Mundo");
+}
+
+function operacion(){
+    sumar(5,2)
+}
+
+function sumar(num1,num2){
+    return num1 + num2;
 }
 
 let funcionFlecha=()=>{
